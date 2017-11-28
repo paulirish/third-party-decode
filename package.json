@@ -1,0 +1,33 @@
+{
+	"name": "third-party-decode",
+	"version": "0.0.1",
+	"description": "Decode URLs into companies & products. Basic 3rd party resolving.",
+	"license": "MIT",
+	"repository": "paulirish/third-party-decode",
+	"author": {
+		"name": "Paul irish"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		""
+	],
+	"dependencies": {
+		"chrome-devtools-frontend": "^1.0.519188"
+	},
+	"devDependencies": {
+		"ava": "^0.20.0"
+	},
+	"ava": {
+		"babel": {
+			"presets": []
+		}
+	}
+}
