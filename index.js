@@ -19,7 +19,7 @@ const registry = new ProductRegistryImpl.Registry();
 //   ['data_management_platform', 1], ['research_analytics', 1], ['research_verification', 1],
 //   ['research_brand_lift', 1]
 // ]);
-const basicTypes = new Map([[0, 'ads'], [1, 'analytics'], [3, 'other']]);
+const basicTypes = new Map([[0, 'ads'], [1, 'analytics'], [3, 'cdn']]);
 
 /**
  *
