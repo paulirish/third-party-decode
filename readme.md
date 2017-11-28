@@ -1,4 +1,4 @@
-# third-party-decode [![Build Status](https://travis-ci.org/paulirish/third-party-decode.svg?branch=master)](https://travis-ci.org/paulirish/third-party-decode)
+# third-party-decode [![Build Status](https://travis-ci.org/paulirish/third-party-decode.svg?branch=master)](https://travis-ci.org/paulirish/third-party-decode) [![NPM third-party-decode package](https://img.shields.io/npm/v/third-party-decode.svg)](https://npmjs.org/package/third-party-decode)
 
 ## Why?
 

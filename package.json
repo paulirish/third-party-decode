@@ -1,7 +1,7 @@
 {
 	"name": "third-party-decode",
 	"version": "0.0.1",
-	"description": "Decode URLs into companies & products. Basic 3rd party resolving.",
+	"description": "Decode (third-party) URLs into companies & products",
 	"license": "MIT",
 	"repository": "paulirish/third-party-decode",
 	"author": {
