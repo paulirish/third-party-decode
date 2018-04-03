@@ -40,6 +40,19 @@ node index.js "http://cdn.krxd.net"
 #   "type": "analytics"
 # }
 ```
+
+## External
+Visit https://third-party-decode.glitch.me/ to view the results in your browser.
+You can also send a request to `https://third-party-decode.glitch.me/badge?url=https://cdn.krxd.net` which returns results in JSON format as follows:
+
+```js
+{
+    "name": "Krux Digital, Inc.",
+    "type": "analytics",
+    "badge": "KD"
+}
+```
+
 ## License
 
 MIT © [Paul Irish](https://github.com/paulirish)
