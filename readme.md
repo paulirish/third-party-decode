@@ -1,10 +1,19 @@
-# third-party-decode [![Build Status](https://travis-ci.org/paulirish/third-party-decode.svg?branch=master)](https://travis-ci.org/paulirish/third-party-decode) [![NPM third-party-decode package](https://img.shields.io/npm/v/third-party-decode.svg)](https://npmjs.org/package/third-party-decode)
+**Unmaintained**
 
-## Why?
+I would recommend using the [third-party-web NPM module](https://github.com/patrickhulce/third-party-web). It's straightforward to use and easy to contribute back to.
+
+Cheers.
+
+
+----------
+
+## third-party-decode [![Build Status](https://travis-ci.org/paulirish/third-party-decode.svg?branch=master)](https://travis-ci.org/paulirish/third-party-decode) [![NPM third-party-decode package](https://img.shields.io/npm/v/third-party-decode.svg)](https://npmjs.org/package/third-party-decode)
+
+### Why?
 
 Because you want to decode URLs to figure out what 3rd party they are. The data comes from the [Chrome DevTools 3rd Party Badges](https://developers.google.com/web/updates/2017/05/devtools-release-notes#badges).
 
-## Usage
+### Usage
 
 ```js
 const decode3P = require('third-party-decode');
@@ -14,22 +23,22 @@ console.log(entry.name); // 'Krux Digital, Inc.'
 console.log(entry.type); // 'analytics'
 ```
 
-## Install
+### Install
 
 ```
 $ npm install third-party-decode
 ```
 
 
-## API
+### API
 
-### decode3P(url: string)
+#### decode3P(url: string)
 
 * Returns `null` if no third party entry found
 * Otherwise returns `{{name: string, type: string}}`
 
 
-## CLI
+### CLI
 
 You can also run this from the command line. It will emit the JSON results to stdout.
 
@@ -41,7 +50,7 @@ node index.js "http://cdn.krxd.net"
 # }
 ```
 
-## External
+### External
 Visit https://third-party-decode.glitch.me/ to view the results in your browser.
 You can also send a request to `https://third-party-decode.glitch.me/badge?url=https://cdn.krxd.net` which returns results in JSON format as follows:
 
@@ -53,6 +62,6 @@ You can also send a request to `https://third-party-decode.glitch.me/badge?url=h
 }
 ```
 
-## License
+### License
 
 MIT © [Paul Irish](https://github.com/paulirish)
