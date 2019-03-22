@@ -23,11 +23,10 @@
 		"chrome-devtools-frontend": "^1.0.519188"
 	},
 	"devDependencies": {
-		"ava": "^0.20.0"
+		"ava": "^1.3.1"
 	},
 	"ava": {
-		"babel": {
-			"presets": []
-		}
+		"babel": false,
+		"compileEnhancements": false
 	}
 }
